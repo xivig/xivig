@@ -207,8 +207,8 @@ But let's throw in a <b>tag</b>.
 
 | table | Name |
 -------- -------
-    1   |   2
--------------
+|   1   |   2  |
+----------------
 
 Horizontal Rule
 Three or more...
@@ -232,3 +232,23 @@ Asterisks
 
 Underscores
 
+## Using emoji
+You can add emoji to your writing by typing :EMOJICODE:.
+
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+Rendered emoji
+
+Typing : will bring up a list of suggested emoji. The list will filter as you type, so once you find the emoji you're looking for, press Tab or Enter to complete the highlighted result.
+
+For a full list of available emoji and codes, check out emoji-cheat-sheet.com.
+
+## Paragraphs
+You can create a new paragraph by leaving a blank line between lines of text.
+
+## Ignoring Markdown formatting
+You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
+Rendered escaped character
