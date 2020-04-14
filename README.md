@@ -208,7 +208,7 @@ But let's throw in a <b>tag</b>.
 | table | Name |
 -------- -------
 |   1   |   2  |
-----------------
+
 
 Horizontal Rule
 Three or more...
@@ -232,6 +232,32 @@ Asterisks
 
 Underscores
 
+
+## Task lists
+To create a task list, preface list items with a regular space character followed by [ ]. To mark a task as complete, use [x].
+
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+Rendered task list
+
+If a task list item description begins with a parenthesis, you'll need to escape it with \:
+
+- [ ] \(Optional) Open a followup issue
+
+## Mentioning people and teams
+You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name.
+
+@github/support What do you think about these updates?
+
+Rendered @mention
+
+When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "About teams."
+
+Typing an @ symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
+
+The autocomplete results are restricted to repository collaborators and any other participants on the thread.
+
 ## Using emoji
 You can add emoji to your writing by typing :EMOJICODE:.
 
@@ -252,3 +278,35 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using \ before 
 Let's rename \*our-new-project\* to \*our-old-project\*.
 
 Rendered escaped character
+
+
+## Tables
+Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+Colons can be used to align columns.
+
+Tables	Are	Cool
+col 3 is	right-aligned	$1600
+col 2 is	centered	$12
+zebra stripes	are neat	$1
+There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown	Less	Pretty
+Still	renders	nicely
+1	2	3
