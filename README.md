@@ -57,6 +57,8 @@ Follow the steps below:
 `sudo apt-get install libmagickwand-dev` or `sudo apt-install ruby-dev` following the stackoverflow instruction:
 [stackoverflow](https://askubuntu.com/questions/600068/cant-install-a-ruby-package-failed-to-build-gem-native-extension)
 
+Now run: `sudo gem install jekyll` this time it will be fine
+
 9. check jekyll installed or not by the following command:
    `jekyll -v`
 10. create a new directory for serving the website by jekyll using following command:
