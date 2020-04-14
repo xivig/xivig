@@ -1,6 +1,6 @@
 # xivig
 
-![alt text](https://github.com/xivig/xivig/blob/master/assets/images/Xivig-Logo-favicon.jpg "Xivig Logo")
+![alt text](https://github.com/xivig/xivig/blob/master/assets/images/android-icon-72x72.png "Xivig Logo")
  
 
 ## Jekyll configuration
