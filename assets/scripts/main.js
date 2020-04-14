@@ -1,3 +1,3 @@
 $(function(){
- alert("Welcome to our project");
+//  alert("Welcome to our project");
 });
