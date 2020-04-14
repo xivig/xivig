@@ -24,7 +24,7 @@
 
 *In MacOS*
 
-1.Ruby is generally installed, so follow the steps from step 4
+1. Ruby is generally installed, so follow the steps from step 4
 2. Open the terminal
 3. create a directory by the following command
  ` mkdir jekyll-project `
