@@ -1,0 +1,33 @@
+{
+  "name": "xivig",
+  "version": "1.0.0",
+  "description": "How to migrate gulp3 to gulp4 using babel, webpack and es6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xivig/xivig.git"
+  },
+  "keywords": [
+    "gulp4",
+    "babel7",
+    "webpack4"
+  ],
+  "author": "bandhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xivig/xivig/issues"
+  },
+  "homepage": "https://github.com/xivig/xivig#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "gulp": "^4.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}
