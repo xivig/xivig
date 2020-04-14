@@ -2,6 +2,7 @@
 #  2.sh git_run.sh
 git status
 git add -A
+git status
 git commit -m "Git bach command for commit"
 git push origin master
 git status
