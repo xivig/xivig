@@ -178,7 +178,7 @@ Some text to show that the reference links can follow later.
 6. Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/xivig/xivig/blob/master/assets/images/favicon-32x32.png "Logo Title Text 1")
 
 7. nline `code` has `back-ticks around` it.
 
