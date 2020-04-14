@@ -1,4 +1,6 @@
 # xivig
+![alt text][logo]
+logo: https://github.com/xivig/xivig/blob/master/assets/images/Xivig-Logo-favicon.jpg "Xivig Logo"
 
 ## Jekyll configuration
 
