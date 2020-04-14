@@ -206,8 +206,9 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 
 | table | Name |
-----------------
-1 | 2
+-------- -------
+    1   |   2
+-------------
 
 Horizontal Rule
 Three or more...
