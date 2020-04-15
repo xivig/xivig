@@ -73,14 +73,14 @@
 
 1. Open the terminal
 2. Run the following command 
-3. ```sh
+```sh
  sudo apt-get install ruby
  ```
 3. check Ruby is installed or not by the following command 
 ```sh 
    ruby  -v
  ```
-5. create a directory by the following command
+4. create a directory by the following command
  ```sh
   mkdir jekyll-project
   ```
@@ -155,7 +155,7 @@ or single step for creating branch and checkout
 12. create a branch of your repo for github page by the following:
 ` git checkout -b gh-pages` # here name matters
 13. Now run the following commands for push master repository from the command line and copying the source files to the branch
-```
+```sh
 git push origin gh-pages
 
 ```
