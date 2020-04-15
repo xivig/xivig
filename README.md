@@ -1,7 +1,6 @@
 # xivig
 
-![alt text](https://github.com/xivig/xivig/blob/master/assets/images/android-icon-72x72.png "Xivig Logo")
- 
+![alt text](https://github.com/xivig/xivig/blob/master/src/assets/images/android-icon-72x72.png "Xivig Logo")
 
 ## Jekyll configuration
 
@@ -178,7 +177,7 @@ Some text to show that the reference links can follow later.
 6. Here's our logo (hover to see the title text):
 
 Inline-style: 
-![alt text](https://github.com/xivig/xivig/blob/master/assets/images/favicon-32x32.png "Logo Title Text 1")
+![alt text](https://github.com/xivig/xivig/blob/master/src/assets/images/favicon-32x32.png "Logo Title Text 1")
 
 7. nline `code` has `back-ticks around` it.
 
