@@ -11,7 +11,11 @@
 		"type": "git",
 		"url": "git+https://github.com/xivig/xivig.git"
 	},
-	"keywords": [ "gulp4", "babel7", "webpack4" ],
+	"keywords": [
+		"gulp4",
+		"babel7",
+		"webpack4"
+	],
 	"author": "bandhu",
 	"license": "ISC",
 	"bugs": {
@@ -53,6 +57,7 @@
 		"postcss-nested": "^4.2.1",
 		"postcss-simple-vars": "^5.0.2",
 		"stylelint": "^13.3.0",
+		"stylelint-config-prettier": "^8.0.1",
 		"stylelint-config-standard": "^20.0.0",
 		"webpack": "^4.42.1",
 		"webpack-cli": "^3.3.11",
