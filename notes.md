@@ -41,8 +41,8 @@ the jQuery.
 7. Now, we're ready. I'm going to select our first div by id. You can use Sizzle('selector') simliar to $('selector') of jQuery. So it'll be Sizzle('#testdiv') and let's put the div text in he popup so we can see the result. 
 
 **Note:** 
-1. the returned result is always in array so we need to specify the index
-2. Any selector that work with jQuery should also work with Sizzle too. 
+* the returned result is always in array so we need to specify the index
+* Any selector that work with jQuery should also work with Sizzle too. 
 
 Let's try 
 
