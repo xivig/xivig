@@ -131,16 +131,15 @@ Now run:
 2. create a new Repository named "xivig" as for me
 3. Following the link below you wull get your first step [Create Github Pages](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
 4. open git bash and type the following commands
-    ```sh
- git clone https://github.com/xivig/xivig.git
-    git remote -v
-    git status 
-    ```
-
+```sh
+git clone https://github.com/xivig/xivig.git
+git remote -v
+git status 
+```
 5. Create a new file named index.html as follows: 
-   ```sh 
-   touch index.html && echo "Welcome to github page" > index.html
-    ```
+```sh 
+touch index.html && echo "Welcome to github page" > index.html
+ ```
 6. create a readme file as follows: `echo "# Xivig" >> README.md`
 7. git add all files to staging area as follows:
 ```sh
