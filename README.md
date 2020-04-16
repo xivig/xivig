@@ -1,6 +1,9 @@
 # xivig 
 [![Build Status](https://travis-ci.com/xivig/xivig.svg?branch=master)](https://travis-ci.com/xivig/xivig)
 ![npm (Xivig)](https://img.shields.io/npm/v/npm/next?style=plastic)
+![Github issue](https://img.shields.io/github/issues/xivig/xivig)
+![Github forks](https://img.shields.io/github/forks/xivig/xivig)
+![Github stars](https://img.shields.io/github/stars/xivig/xivig)
 
 ![alt text](https://github.com/xivig/xivig/blob/master/src/assets/images/android-icon-72x72.png "Xivig Logo")
 
