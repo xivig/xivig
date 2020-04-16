@@ -45,9 +45,11 @@
 		"gulp-plumber": "^1.2.1",
 		"gulp-postcss": "^8.0.0",
 		"gulp-rename": "^2.0.0",
+		"gulp-rev-all": "^2.0.3",
 		"gulp-size": "^3.0.0",
 		"gulp-sourcemaps": "^2.6.5",
 		"gulp-uglify": "^3.0.2",
+		"gulp-usemin": "^0.3.30",
 		"imagemin-jpeg-recompress": "^6.0.0",
 		"imagemin-pngquant": "^8.0.0",
 		"postcss-assets": "^5.0.0",
@@ -64,6 +66,11 @@
 		"webpack-stream": "^5.2.1"
 	},
 	"dependencies": {
-		"jquery": "^3.5.0"
+		"jquery": "^3.5.0",
+		"jquery-ui": "^1.12.1",
+		"normalize.css": "^8.0.1"
+	},
+	"optionalDependencies": {
+		"fsevents": "*"
 	}
 }

@@ -1,0 +1,14 @@
+body {
+    font-size: 1em;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(169, 203, 235); */
+    background-color: #fff;
+}
+
+.clearfix:: {
+    content: "";
+    clear: both;
+    display: table;
+
+}

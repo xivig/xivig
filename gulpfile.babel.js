@@ -14,8 +14,11 @@ import sourcemaps from 'gulp-sourcemaps';
 import plumber from 'gulp-plumber';
 import notify from 'gulp-notify';
 import rename from 'gulp-rename';
-
+import usemin from 'gulp-usemin';
 //import concat from 'gulp-concat';
+
+import rev from 'gulp-rev-all';
+
 import del from 'del';
 import newer from 'gulp-newer';
 import size from 'gulp-size';
@@ -256,15 +259,23 @@ export const serveBundle = (done) => {
     done();
 };
 
-//3. Copying the index.html file in the build directory
-export const copy = () => {
-    return gulp.src('src/index.html').pipe(gulp.dest('build'));
+
+//3. build the index.html file for correcting link and script tag in the build directory
+export const buildHtml = () => {
+    return gulp.src('src/*.html')
+        .pipe(usemin({
+            css: [rev.revision()],
+            js: [rev.revision()]
+        }))
+        .pipe(gulp.dest('build'));
 };
 
 //4. Copying the styles and scripts files in the build directory
-export const copyFiles = () => {
-    return gulp.src(['src/temp/**/*']).pipe(gulp.dest('build/assets/'));
-};
+// export const copyFiles = () => {
+//     return gulp.src(['src/temp/**/*']).pipe(gulp.dest('build/assets/'));
+// };
+
+
 
 export const cssInject = () => {
     return gulp.src('./src/temp/styles/styles.min.css')
@@ -281,10 +292,9 @@ export const cssjs = gulp.series(clean, gulp.parallel(scripts, styles), watch);
 // export const bundleCSS = gulp.series(clean, styles, copyFiles, serveBundle, watchBundle);
 export const bundle = gulp.series(
     cleanBundle,
-    gulp.parallel(styles, scripts),
-    images,
-    copy,
-    copyFiles,
+    gulp.parallel(styles, scripts, images),
+    buildHtml,
+    // copyFiles,
     serveBundle,
     watchBundle
 );
