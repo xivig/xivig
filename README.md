@@ -1,5 +1,6 @@
 # xivig 
 [![Build Status](https://travis-ci.com/xivig/xivig.svg?branch=master)](https://travis-ci.com/xivig/xivig)
+![npm (tag)](https://img.shields.io/npm/v/npm/next?style=plastic)
 
 ![alt text](https://github.com/xivig/xivig/blob/master/src/assets/images/android-icon-72x72.png "Xivig Logo")
 
