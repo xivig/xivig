@@ -6,7 +6,8 @@
 	"scripts": {
 		"es5": "babel src/assets/scripts/App.js --out-dir src/temp/scripts",
 		"dist": "webpack --mode production ./src/assets/scripts/App.js --output ./src/temp/scripts/App.js --watch",
-		"build": "gulp bundle"
+		"bundle": "gulp bundle",
+		"build": "gulp dist"
 	},
 	"repository": {
 		"type": "git",

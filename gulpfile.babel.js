@@ -298,6 +298,12 @@ export const bundle = gulp.series(
     serveBundle,
     watchBundle
 );
+
+export const dist = gulp.series(
+    cleanBundle,
+    gulp.parallel(styles, scripts, images),
+    buildHtml
+);
 // export const dev = gulp.series(serve, watch); // run gulp dev for development environment
 // export const build = gulp.series(clean, copy, serve1, watch1);
 
