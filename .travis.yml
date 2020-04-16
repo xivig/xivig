@@ -1,1 +1,15 @@
-
+language: node_je
+node_js:
+  - 12.16.2
+before_install:
+  - npm i gulp gulp-cli webpack webpack-cli
+install:
+  - npm ci
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $Github_Token
+  on:
+    branch: gh-pages
