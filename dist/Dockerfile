@@ -6,11 +6,11 @@
 # touch somefile.txt
 
 
-docker build -t xivig:latest -f- https://github.com/xivig/xivig.git <<EOF
+#docker build -t xivig:latest -f- https://github.com/xivig/xivig.git <<EOF
 FROM busybox
 COPY git_run.sh .
 RUN cat git_run.sh
-EOF
+#EOF
 
 # FROM node:12.16.2
 
