@@ -1,9 +1,9 @@
 # create a directory to work in
-mkdir cool
-cd cool
+# mkdir cool
+# cd cool
 
-# create an example file
-touch somefile.txt
+# # create an example file
+# touch somefile.txt
 
 
 docker build -t xivig:latest -f- https://github.com/xivig/xivig.git <<EOF
