@@ -3,6 +3,6 @@
 git status
 git add -A
 git status
-git commit -m "Git batch command for commit"
+git commit -m "git batch commit"
 git push origin master
 git status
