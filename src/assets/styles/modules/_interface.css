@@ -39,6 +39,7 @@ html {
         position: relative;
         padding: 10px;
         overflow: auto;
+        text-align: center;
     }
 }
 
